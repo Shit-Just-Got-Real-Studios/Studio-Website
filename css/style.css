@@ -300,13 +300,14 @@ h2.resp-accordion {
 }
 
 .tab_img{
-
+	padding-right: 10px;
 	padding:2em 1em;
 }
 .img-top {
 	float: left;
 	width: 33.33%;
-	  position: relative;
+	padding-right: 10px;
+	position: relative;
 }
 
 .tab_desc {
@@ -676,7 +677,7 @@ ul.footer-grid {
 }
 
 .ch-img-1 { 
-	background-image: url(../images/team-1.jpg);
+	background-image: url(../images/shreyas.jpg);
 }
 
 .ch-img-2 { 
