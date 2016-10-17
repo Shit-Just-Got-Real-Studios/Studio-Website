@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Shit Just Got Real</title>
+<title>Shit Just Got Real </title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -17,12 +17,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Games Park Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/modernizr.custom.97074.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
 <!--flexslider-->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <!--//flexslider-->
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.games a').Chocolat();
+		});
+		</script>
 </head>
 <body> 
 <!--header-->	
@@ -31,26 +47,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="head-top">
 				<div class="logo">
-					<h1><a href="index.html"> Shit Just Got Real  </a></h1>
+					<h1><a href="index.html"> Shit Just Got Real </a></h1>
 				</div>
 			<div class="top-nav">		
-			  <span class="menu"><img src="images/menu.png" alt=""> </span>
+			 <span class="menu"><img src="images/menu.png" alt=""> </span>
 				<ul>
 						<li ><a  href="index.html"  >Home</a></li>
-						<li><a  href="gallery.html"  >Gallery</a></li>
+						<li class="active"><a  href="gallery.html"  >Gallery</a></li>
 						<li><a  href="about.html" >About</a></li>
 						<!--<li><a  href="blog.html"  >Blog</a></li>-->
-						<li class="active"><a  href="contact.html" >Contact</a></li>
+						<li><a  href="contact.html" >Contact</a></li>
 						<div class="clearfix"> </div>
 					</ul>
 					<!--script-->
+				
 				<script>
 					$("span.menu").click(function(){
 						$(".top-nav ul").slideToggle(500, function(){
 						});
 					});
 			</script>
-
+				
 				</div>
 				
 				<div class="clearfix"> </div>
@@ -58,12 +75,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 </div>
-<!--banner-->
-<!--banner-->
 <!--
+<!--banner
+<!--banner
 <div class="banner">
 	<div class="container">
-		<h2>Our Games</h2>	
+		<h2>Gallery</h2>	
 		 <div class="banner-matter">
            	 <div class="slider">
                   <section class="slider">
@@ -145,67 +162,105 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 -->
-<!--content-->
-		<div class="contact">
-			<div class="container">
-				<h3>Contact</h3>
-				<div class="address">
-					<div class=" address-more">
-						<h4>Address</h4>
-						<div class="col-md-4 address-grid">
-							<i class="glyphicon glyphicon-map-marker"></i>
-							<div class="address1">
-								<p>Bangalore</p>
-								<p>India</p>
+<!--games-->
+<div class="container">
+<br>
+				<center><h2 >Gallery</h2></center><br><br>
+		<a href="gallery.html"><li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>2D Art</span></li></a>
+		<a href="3DGallery.html"><li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>3D Art</span></li></a>
+				<div class="games">
+		<br>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="images/dagger.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/dagger.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="col-md-4 address-grid ">
-							<i class="glyphicon glyphicon-phone"></i>
-							<div class="address1">
-								<p>+919008088357</p>
-								<p>+919408804094</p>
+						</a>
+					</li>
+					<li>
+						<a href="images/Sci-Fi Gun Concept.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Sci-Fi Gun Concept.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="col-md-4 address-grid ">
-							<i class="glyphicon glyphicon-envelope"></i>
-							<div class="address1">
-								<p><a href="mailto:info@shitjustgotreal.in"> rinald@shitjustgotreal.in</a></p>
+						</a>
+					</li>
+					<li>
+						<a href="images/House.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/House.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div-->
-				
-				<div class="contact-grids">
-					<div class="col-md-6 map">
-					<!--
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.91163207516!2d2.3470599!3d48.85885894999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sen!2sin!4v1436340519910" allowfullscreen></iframe>	
-					-->
-					<iframe src="http://www.map-generator.org/03889567-1069-4284-a753-42663a4e0cfd/iframe-map.aspx" scrolling="no" width="500px" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="http://www.map-generator.org/03889567-1069-4284-a753-42663a4e0cfd/large-map.aspx" target="_blank">Open large map<a/></small>	
-				</div>
-					<div class="col-md-6 contact-form">
-							<form method="POST" action="http://free.allforms.mailjol.net/u/fe490854.php">								<div class="contact-bottom">
-									<input type="text" placeholder="Name">
-									<input type="text"  placeholder="Email">
-									<input type="text" placeholder="Phonenumber">
-									<textarea placeholder="Message" required=""></textarea>								
-									<input type="submit" value="Send">
-								</div>
-							</form>
-						</div>
-						
-				<div class="clearfix"> </div>
-				
-			</div>
-		</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/Dodge Charger.jpeg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Dodge Charger.jpeg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>	
+						<a href="images/Sculpture.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Sculpture.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/Sniper Wireframe.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Sniper Wireframe.jpgf" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/Gun with Bullets rendered.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Gun with Bullets rendered.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/Steam Gun.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Steam Gun.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/Revolver Wireframe.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/Revolver Wireframe.jpg" alt="" />
+							<div>
+								<h5>Games</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
+				</ul>
+			</section>
+			
+
 	</div>
-<!--//content-->
-
-									<br>
-
+</div>
+<!--//games-->
 <!--footer-->		
 	<div class="footer">
 		<div class="container">
@@ -213,21 +268,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 				<div class="col-md-4  top-footer">
 					<ul>
-						<li><a href="https://twitter.com/SGJRstudio" target="_blank"><i></i></a></li>
-						<li><a href="https://twitter.com/SGJRstudio" target="_blank">Twitter</a></li>
+						<li><a href="https://twitter.com/SGJRstudio"><i></i></a></li>
+						<li><a href="https://twitter.com/SGJRstudio">Twitter</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 top-footer">
 					<ul>
-						<li><a href="https://youtu.be/7gphiFVVtUI"><i class="youtube"></i></a></li>
-						<li><a href="https://youtu.be/7gphiFVVtUI">Youtube</a></li>
+						<li><a href="#"><i class="youtube"></i></a></li>
+						<li><a href="#">Youtube</a></li>
 					</ul>
 				</div>
 				
 				<div class="col-md-4 top-footer">
 					<ul>
-						<li><a href="https://www.facebook.com/shitjustgotrealstudio/?fref=ts" target="_blank"><i class="facebook"></i></a></li>
-						<li><a href="https://www.facebook.com/shitjustgotrealstudio/?fref=ts" target="_blank">Facebook</a></li>
+						<li><a href="https://www.facebook.com/shitjustgotrealstudio/"><i class="facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/shitjustgotrealstudio/">Facebook</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -235,8 +290,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<ul class="footer-grid">
 					<li ><a  href="index.html"  >Home</a></li>
 						<li><a  href="gallery.html"  >Gallery</a></li>
+						<!--<li><a  href="typo.html"  >Events</a></li>-->
 						<li><a  href="about.html" >About</a></li>
-						<!--<li><a  href="blog.html"  >Blog</a></li>-->
+						<!--
+						<li><a  href="blog.html"  >Blog</a></li>-->
 						<li><a  href="contact.html" >Contact</a></li>
 					</ul>
 					<p> © 2016 Shit Just Got Real All rights reserved |</p>
